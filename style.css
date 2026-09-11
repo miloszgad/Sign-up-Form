@@ -1,0 +1,192 @@
+@font-face {
+   font-family: "logo-font";
+   src: url(./logo-font/Norsebold.otf) format("opentype");
+}
+
+body {
+    margin: 0px;
+}
+.content {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-section {
+    position: relative;
+    max-width: 516px;
+    flex-shrink: 0;
+}
+
+.lifs-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my-logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: "logo-font";
+    font-size: 100px;
+    color:rgb(241, 235, 235);
+    background-color: rgba(15, 16, 15, 0.5);
+    top: 100px;  
+}
+
+.image-author {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.image-author, .author, .photo-website {
+    color:rgb(241, 235, 235);
+}
+
+.content-section {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 270px;
+    background-color: rgb(245, 245, 245);  
+}
+
+.login1 {
+    font-style: italic;
+    color: rgb(89, 109, 72);
+    text-decoration: none;
+}
+
+.login1 {
+    cursor: pointer;
+}
+.text1 {
+    padding-top: 90px;
+}
+
+.text2 {
+    padding-top: 25px;
+    font-style: italic;
+}
+
+.text1, .text2 {
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+    width: 540px;
+}
+
+.form {
+    box-shadow: 0 5px 5px 0px rgba(15, 16, 15, 0.5);
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+   font-size: 20px;
+   font-weight: 400;
+   margin-left: 57px;
+   padding-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.data-row {
+    margin-top: 30px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 70px;
+    margin-left: 57px;
+    padding-top: 20px;
+}
+.column1, .column2 {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+    font-size: 10px;
+    font-weight: 900;
+    color: #606265;
+    font-family: Helvetica, sans-serif;
+}
+
+input {
+    border: 1px solid #E5E7EB; 
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4373c0;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+input:user-invalid {
+    border: 1px solid #b11818;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+.submit {
+   padding-top: 30px;
+   padding-left: 73px;
+   flex: 1;
+   background-color: rgb(245, 245, 245); 
+}
+
+button {
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(89, 109, 72);
+   padding: 15px 40px 15px 40px;
+   border-radius: 5px;
+   border: none;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+button:hover {
+   cursor: pointer;
+   box-shadow: 0px 0px 5px 5px rgb(89, 109, 72, 0.2);
+}
+
+.login-ask {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.login2 {
+   cursor: pointer;
+   color: rgb(89, 109, 72);
+    text-decoration: none;
+}
+
+
+
+
